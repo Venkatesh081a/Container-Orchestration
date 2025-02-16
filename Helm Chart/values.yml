@@ -1,0 +1,14 @@
+frontend:
+  image: venky081/react-app:v1
+  replicas: 1
+  service:
+    type: ClusterIP
+  containerPort: 3000
+
+backend:
+  image: venky081/node-app:v1
+  replicas: 1
+  service:
+    type: ClusterIP
+  containerPort: 3001
+  mongoUri: "mongodb://bW9uZ29kYjovL21vbmdvZGItc2VydmljZS5kYXRhYmFzZS5zdmMuY2x1c3Rlci5sb2NhbDoyNzAxNy90bW1lcm4="

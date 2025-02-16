@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: lrfrontend
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: lrbackend
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: lrdb

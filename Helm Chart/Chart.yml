@@ -1,0 +1,4 @@
+apiVersion: v2
+name: mern-app-chart
+description: A helm chart for deploying a MERN based application
+version: 0.1.0
